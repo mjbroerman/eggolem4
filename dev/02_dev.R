@@ -45,6 +45,7 @@ usethis::use_test( "app" )
 
 ## Pkgdown
 usethis::use_pkgdown()
+pkgdown::build_site()
 
 ## Vignette ----
 usethis::use_vignette("eggolem4")
